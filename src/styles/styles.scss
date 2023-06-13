@@ -1,0 +1,30 @@
+@import url('./reset.scss');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$cell_background_color: #BF4F74;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cell {
+    // padding: 3px;
+    // width: 30%;
+    text-align: center;
+    // background-color: aquamarine;
+}
+
+.cell-active {
+    // width: 30%;
+    text-align: center;
+    // padding: 4px 4px;
+    // color: #fff;
+    // border-radius: 50%;
+    // background-color: $cell_background_color;
+}
+
+.event {
+    border: 0.2px solid gray;
+    height: 32px;
+    // border-left: none;
+}
